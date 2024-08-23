@@ -1,0 +1,168 @@
+.display-4 {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 33px;
+}
+.box-header h4 {
+  color: #333 !important;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.checkout_bg{background: linear-gradient(to right, #2E95B4, #2E95B4);
+  min-height: 100vh;}
+ .user_table .form-group {
+  margin-bottom: 25px;
+}
+.user_table .form-control {
+  outline: none;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 16px;
+  outline: 0;
+  font-weight: 400;
+  color: #535353;
+  height: 46px;
+  border-radius: 50px;
+  border: 1px solid #dedfe3;
+  background-color: #eee;
+}
+.user_table .form-select {
+  outline: none;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 16px;
+  outline: 0;
+  font-weight: 400;
+  color: #535353;
+  height: 46px;
+  border-radius: 50px;
+  border: 1px solid #dedfe3;
+  background-color: #eee;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+} 
+.form-box option{background-color: #fff}
+.user_table .btn-theme {
+  background: #333;
+  border: none;
+  color: #fff;
+}
+.user_table .btn-md {
+  cursor: pointer;
+  height: 46px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+  border-radius: 50px;
+}
+.credit_card i{margin-right: 10px}
+.bg_checkout{background-color: #2E95B4;color:#fff}
+@media screen  and (min-width:768px) and (max-width:991.98px) {
+.display-4 {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 0px;
+}  
+.checkout_form h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.pay_meth h2{padding-top: 10px !important}
+.pay_meth {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.pay_sec {
+  padding-top: 0 !important;
+}
+.footer_logo {
+  width: 40%;
+}
+}
+@media screen  and (min-width:576px) and (max-width:767.98px){
+.display-4 {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 0px;
+}  
+.checkout_form h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.pay_meth h2{padding-top: 10px !important}
+.pay_meth {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.pay_sec {
+  padding-top: 0 !important;
+}
+}
+@media screen  and (min-width:381px) and (max-width:575.98px){
+.display-4 {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 0px;
+}
+.checkout_form h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.checkout_form {
+  padding: 20px !important;
+}
+.pay_meth h2{padding-top: 10px !important}
+.pay_meth {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.pay_sec {
+  padding-top: 0 !important;
+}
+.bill_heading{text-align: center;}
+}
+@media screen and (min-width:320px) and (max-width:380.98px) {
+.display-4 {
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 0px;
+}
+.checkout_form h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.checkout_form {
+  padding: 20px !important;
+}
+.pay_meth h2{padding-top: 10px !important}
+.pay_meth {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.pay_sec {
+  padding-top: 0 !important;
+}
+.bill_heading{text-align: center;}
+}

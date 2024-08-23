@@ -1,0 +1,268 @@
+.about_btn{border: 1px solid #2E95B4;
+  color:  #2E95B4;
+  width: 30%;
+  display: flex;
+  padding: 5px 10px 6px 10px;
+  justify-content: center;
+  border-radius: 36px;font-size: 21px;align-items: center;height: 58px;
+  font-weight: 600;}
+  .author_img img{width: 100px;
+  border: 1px solid #2E95B4;
+  border-radius: 50%;}
+  .author_img h5{font-weight: bold;
+  font-size: 22px;}
+  .register_bottom{border-bottom: 1px solid #ddd;}
+  .border-sec{border: 1px solid #ddd;}
+  .author_name{font-weight: bold;
+  font-size: 22px;}
+  .fields_left span{color: rgba(0,0,0,.55);
+  font-size: 20px;}
+  .accordion-main .accordion .accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #eee;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: var(--bs-accordion-inner-border-radius);
+  border-top-right-radius: var(--bs-accordion-inner-border-radius);
+}
+.accordion-button::after{transform: rotate(-90deg) !important;}
+.buttons_list li{list-style: none;}
+  .accordion-button{color: #000 !important;font-size: 20px !important;
+  font-weight: 600 !important;background-color: #eee !important}
+  .accordion-button i{color: #2E95B4;
+  padding-top: 2px;}
+  .author_name_left{font-weight: bold;
+  font-size: 22px;}
+  .form_fields{list-style: none;}
+  .form-select{color: #6c757d !important;}
+  .form_fields h5{text-align: center;font-weight: 600;}
+  .save_btn{width: 100%;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  background-color: #2E95B4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;}
+
+  /* fields css  */
+.buttons_list li{
+  text-align: left;font-size: 16px;
+  border-top: 1px solid #eee;}
+.about_btn{border: 1px solid #2E95B4;
+  color:  #2E95B4;
+  width: 30%;
+  display: flex;
+  padding: 5px 10px 6px 10px;
+  justify-content: center;
+  border-radius: 36px;font-size: 21px;align-items: center;height: 58px;
+  font-weight: 600;}
+  .author_img img{width: 100px;
+  border: 1px solid #2E95B4;
+  border-radius: 50%;}
+  .author_img h5{font-weight: bold;
+  font-size: 22px;}
+  .register_bottom{border-bottom: 1px solid #ddd;}
+  .author_name{font-weight: bold;
+  font-size: 22px;color: #444;}
+  .fields_left span{color: rgba(0,0,0,.55);
+  font-size: 20px;}
+
+.buttons_list li{list-style: none;}
+
+
+ .author_name_left {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+  .form_fields{list-style: none;}
+  .form-select{color: #6c757d !important;}
+  .form_fields h5{text-align: center;font-weight: 600;}
+  .save_btn{width: 100%;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  background-color: #2E95B4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;}
+/* form css */
+.form-box {
+  width: 100%;
+  position: relative;
+}
+.user_table .form-control {
+  outline: none;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 16px;
+  outline: 0;
+  font-weight: 400;
+  color: #535353;
+  height: 46px;
+  border-radius: 50px;
+  border: 1px solid #dedfe3;
+  background-color: #eee;
+}
+.user_table .form-group {
+  margin-bottom: 25px;
+}
+.user_table .form-select {
+  outline: none;
+  width: 100%;
+  padding: 10px 25px;
+  font-size: 16px;
+  outline: 0;
+  font-weight: 400;
+  color: #535353;
+  height: 55px;
+  border-radius: 50px;
+  border: 1px solid #dedfe3;
+  background-color: #eee;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.user_table .btn-md {
+  cursor: pointer;
+  height: 46px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+  border-radius: 50px;
+}
+.user_table .btn-theme {
+  background: #2E95B4;
+  border: none;
+  color: #fff;
+}
+.box-header h4{margin-bottom: 25px}
+.form-box option{background-color: #fff}
+.buttons_list li i{color: #555}
+.card_bg{background-color: #fbfbfb}
+.edit_pro img {
+  width: 100px;
+  border-radius: 50%;
+}
+.buttons_list li {
+  list-style: none;
+}
+.buttons_list li {
+  text-align: left;
+  font-size: 16px;
+  border-top: 1px solid #eee;
+}
+.buttons_list li a {
+  color: #444;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+.buttons_list li i {
+  color: #555;
+}
+.buttons_list li:hover {
+  background-color: #eee;
+}
+.sub_edit {
+  /* display: block; */
+  width: 100px;
+}
+.sub_edit i {
+  position: relative;
+  background-color: #2E95B4;
+  padding: 6px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  left: 70px;
+  bottom: 35px;
+}
+
+
+@media screen and (min-width:1200px) and   (max-width:1399.98px) {}
+@media screen and (min-width:992px) and   (max-width:1199.98px) {
+.author_name {
+  font-size: 16px;
+  padding-top: 10px !important;
+}
+.buttons_list li {
+  font-size: 14px;
+}
+.about_btn {
+  width: 40%;
+}
+}
+@media screen  and (min-width:768px) and (max-width:991.98px) {
+
+}
+@media screen  and (min-width:576px) and (max-width:767.98px){
+.about_btn {
+  width: 50%;
+  font-size: 18px;
+  height: 45px;
+}  
+}
+@media screen  and (min-width:381px) and (max-width:575.98px){
+.author_img img {
+  width: 70px;
+}
+.author_img h5 {
+  font-size: 18px;
+}
+.about_btn {
+  width: 50%;
+  font-size: 16px;
+  height: 40px;
+}
+.author_name {
+  font-size: 18px;
+  padding-top: 10px !important;
+}
+.author_name_left {
+  margin-top: 20px;
+}  
+   
+}
+@media screen and (min-width:320px) and (max-width:380.98px) {
+.author_img img {
+  width: 70px;
+}
+.author_img h5 {
+  font-size: 18px;
+}
+.about_btn {
+  width: 60%;
+  font-size: 16px;
+  height: 40px;
+}
+.author_name {
+  font-size: 18px;
+  padding-top: 10px !important;
+}
+.author_name_left {
+  margin-top: 20px;
+}
+}

@@ -1,0 +1,295 @@
+.login {
+	background: #eef1f6;
+}
+.login .form-section {
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.login .login-inner-form {
+	max-width: 450px;
+	color: #535353;
+	width: 100%;
+	text-align: center;
+}
+.login .login-inner-form {
+	color: #535353;
+	text-align: center;
+}
+.login a {
+	text-decoration: none;
+}
+.login .login-inner-form h3 {
+	margin: 0 0 30px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #040404;
+}
+.login .login-inner-form .form-group {
+	margin-bottom: 25px;
+}
+.login .form-section .form-box {
+	width: 100%;
+	position: relative;
+}
+.login .login-inner-form .form-control {
+	outline: none;
+	width: 100%;
+	padding: 10px 25px;
+	font-size: 16px;
+	outline: 0;
+	font-weight: 400;
+	color: #535353;
+	height: 55px;
+	border-radius: 50px;
+	border: 1px solid #dedfe3;
+  background-color: #dedfe3;
+}
+.login .login-inner-form .form-check {
+	float: left;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.login .login-inner-form input[type="checkbox"], input[type="radio"] {
+	margin-top: 4px;
+}
+.login .login-inner-form input[type="checkbox"], input[type="radio"] {
+	margin-right: 3px;
+}
+.login .login-inner-form .form-check-input {
+	display: none;
+}
+.login .login-inner-form .form-check label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	top: 0;
+	height: 20px;
+	margin-left: -25px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	background-color: #fff;
+}
+.login .login-inner-form .form-check-label {
+	padding-left: 25px;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.login .login-inner-form .btn-theme {
+	background: #2E95B4;
+	border: none;
+	color: #fff;
+}
+.login .login-inner-form .btn-md {
+	cursor: pointer;
+	height: 55px;
+	color: #fff;
+	padding: 15.5px 50px 14.5px 50px;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: 'Jost', sans-serif;
+	border-radius: 50px;
+}
+.login .login-inner-form .checkbox a {
+	font-size: 16px;
+	color: #535353;
+	float: right;
+}
+.login .login-inner-form .checkbox a {
+	font-size: 16px;
+	color: #535353;
+	float: right;
+}
+.login .login-inner-form .checkbox .terms {
+	margin-left: 3px;
+}
+.login .login-inner-form p a {
+	color: #2E95B4;
+	font-weight: 500;
+}
+.login .bg-img::after {
+	position: absolute;
+	left: -1px;
+	top: 0;
+	width: 276px;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	background-color: #2E95B4;;
+}
+.login .informeson {
+	color: #fff;
+	max-width: 500px;
+	margin: 0 20px 0 70px;
+}
+.login .btn-section {
+	margin-bottom: 30px;
+}
+.login .informeson .link-btn {
+	background: #fff;
+	padding: 9px 30px;
+	font-size: 15px;
+	border-radius: 3px;
+	margin-right: 2px;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	color: #2E95B4;
+	font-family: 'Jost', sans-serif;
+}
+.login .informeson .active {
+	background: #1F6E86;
+	color: #fff;
+}
+.login .bg-img {
+	background-color: #2E95B4;;
+	background-size: cover;
+	top: 0;
+	bottom: 0;
+	min-height: 100vh;
+	text-align: left;
+	z-index: 10;
+	opacity: 1;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 30px;
+}
+.login .informeson p {
+	color: #fff;
+	margin-bottom: 20px;
+	line-height: 28px;
+}
+.login .social-list a {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 2px;
+	border-radius: 5%;
+	background: #fff;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+.login .social-list a:hover {
+	color: #fff;
+}
+.login .facebook-bg {
+	color: #4867aa;
+}
+.login .facebook-bg:hover {
+	background: #4867aa;
+}
+.login .twitter-bg {
+	color: #33CCFF;
+}
+.login .twitter-bg:hover {
+	background: #33CCFF;
+}
+.login .google-bg {
+	color: #db4437;
+}
+.login .google-bg:hover {
+	background: #db4437;
+}
+.login .linkedin-bg {
+	color: #2392e0;
+}
+.login .linkedin-bg:hover {
+	background: #1c82ca;
+}
+.details .login_title{font-size: 20px;
+  font-weight: bold;
+  color: #333;}
+.login .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+	background-color: #2E95B4;
+	border-color: #2E95B4;
+}
+.login .login-inner-form input[type="checkbox"]:checked + label::before {
+	font-weight: 600;
+	color: #fff;
+	line-height: 19px;
+	font-size: 14px;
+	content: "\2713";
+	padding-left: 1px;
+}
+.login .login-inner-form .form-select {
+	outline: none;
+	width: 100%;
+	padding: 10px 25px;
+	font-size: 16px;
+	outline: 0;
+	font-weight: 400;
+	color: #535353;
+	height: 55px;
+	border-radius: 50px;
+	border: 1px solid #dedfe3;
+  background-color: #dedfe3;
+}
+  /* responsive */
+@media screen and (min-width:1400px) {
+
+}
+@media screen and (min-width:1200px) and   (max-width:1399.98px) {
+.login .bg-img {
+	min-height: 100%;
+}
+.login .form-section {
+	min-height: 100%;
+}
+}
+@media screen and (min-width:992px) and   (max-width:1199.98px) {
+.login .bg-img {
+	min-height: 100%;
+}
+.login .form-section {
+	min-height: 100%;
+}
+}
+@media screen  and (min-width:768px) and (max-width:991.98px) {
+.login .bg-img {
+	min-height: 100%;
+}
+.login .form-section {
+	min-height: 100%;
+}
+}
+@media screen  and (min-width:576px) and (max-width:767.98px){
+.login .bg-img {
+	min-height: 100%;
+}
+.login .form-section {
+	min-height: 100%;
+}
+}
+@media screen  and (min-width:381px) and (max-width:575.98px){
+.login .form-section {
+	min-height: 100%;
+}
+.login .informeson {
+	max-width: 100%;
+	margin: 0 0px 0 0px;
+}
+.login .bg-img {
+	min-height: 100%;
+}
+
+}
+@media screen and (min-width:320px) and (max-width:380.98px) {
+.login .form-section {
+	min-height: 100%;
+}
+.login .informeson {
+	max-width: 100%;
+	margin: 0 0px 0 0px;
+}
+.login .bg-img {
+	min-height: 100%;
+}
+}
